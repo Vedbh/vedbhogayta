@@ -1,103 +1,176 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Gaming Website</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #1a1a1a;
-            color: #fff;
-        }
-
-        header {
-            background-color: #333;
-            padding: 1em;
-            text-align: center;
-        }
-
-        h1 {
-            color: #e74c3c;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #2c3e50;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        .game {
-            margin-bottom: 30px;
-        }
-
-        .download-button {
-            background-color: #3498db;
-            color: #fff;
-            padding: 10px 20px;
-            font-size: 18px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Services and Pricing</title>
 </head>
 <body>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.pricing-card {
+    background-color: silver;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+li{
+    background-color: green;
+}
+</style>
     <header>
-        <h1>My Gaming Website</h1>
+        <h1>I PROIVDE YOU BEST WEBSITE CREATE (PAID)</h1> 
     </header>
 
-    <main>
-        <div class="game">
-            <h2>GTA 5 (PC)</h2>
-            <p>Experience the open-world action of Grand Theft Auto V on your PC.</p>
-            <a href="https://www.rockstargames.com/gta-v" class="download-button">Download Now</a>
+    <section id="pricing">
+        <div class="pricing-card">
+            <h2>Basic Plan</h2>
+            <p class="price"><span class="original-price">$30</span> $20</p>
+            <p>Great for starters</p>
+            <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a>
         </div>
+        <br>
 
-        <div class="game">
-            <h2>Minecraft</h2>
-            <p>Build and explore your own virtual world in Minecraft.</p>
-            <a href="https://www.minecraft.net/" class="download-button">Download Now</a>
+        <div class="pricing-card">
+            <h2>Standard Plan</h2>
+            <p class="price"><span class="original-price">$50</span> $30</p>
+            <p>Perfect for small businesses</p>
+            <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a>
         </div>
-
-        <!-- Add more games as needed -->
-        <div class="game">
-            <h2>GTA YCT ( only for PC)</h2>
-            <p>Build and explore your own virtual world in Minecraft.</p>
-            <a href="https://socialclub.rockstargames.com/rockstar-games-launcher?_gl=1%2Acmv4xe%2A_ga%2AODY2ODAwMzc5LjE2OTk3MTE2MTY.%2A_ga_PJQ2JYZDQC%2AMTY5OTcxOTQzOS4yLjEuMTY5OTcxOTQ0My4wLjAuMA..&_ga=2.46888295.1773127019.1699711616-866800379.1699711616
-            " class="download-button">Download Now</a>
+<br>
+        <div class="pricing-card">
+            <h2>Premium Plan</h2>
+            <p class="price"><span class="original-price">$80</span> $40</p>
+            <p>For advanced users</p>
+            <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a>
         </div>
-        <div class="game">
-            <h2>BGMI</h2>
-            <p>Build and explore your own virtual world in Minecraft.</p>
-            <a href="https://www.battlegroundsmobileindia.com/" class="download-button">Download now</a>
-        </div>
-    </main>
+        <ul>
 
-    <footer>
-        &copy; 2023 My Gaming Website
-    </footer>
+        </ul>
 
-</body>
-</html>
+    </section>
+
+   
+
+    </script>
+<header>
+    <h1> Our Simple Website</h1>
+    <p>Discover amazing things at an unbeatable price!</p>
+</header>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.price-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+    margin: 1em 0;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+p {
+    margin: 1em 0;
+    color: #666;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+</style>
+<section id="pricing">
+    <div class="price-card">
+        <h2>Special Offer</h2>
+        <p class="price"><span class="original-price">$7</span> $5</p>
+        <p>Limited time discount!</p>
+<li>  <a href="https://wa.me/6353074867" target="_blank">DM TO BUY</a></li>
+    </div>
+</section>
